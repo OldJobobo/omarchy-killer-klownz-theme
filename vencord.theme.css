@@ -13,7 +13,7 @@
 /* ╚═╝  ╚═╝╚══════╝ ╚═════╝  ╚══╝╚══╝ ╚═╝  ╚═══╝╚══════╝ */
 
 /**
- * @name Killer Klowns — Cotton Candy Portal
+ * @name Killer Klownz — Cotton Candy Portal
  * @author oldjobobo
  * @version 4.2.0
  * @description Three surface temperatures. Cold void, alien pink, slime green.
@@ -73,7 +73,7 @@ body {
 :root {
     --colors: on;
 
-    /* ── Killer Klowns palette ────────────────────────────────────────── */
+    /* ── Killer Klownz palette ────────────────────────────────────────── */
     --kk-void:     #0b0a10;
     --kk-void-2:   #0d0b14;
     --kk-void-3:   #130b18;
@@ -608,6 +608,22 @@ a[data-list-item-id^="channels___"][class*="modeUnread"] svg,
     [class*="privateChannels"] [class*="channel"]:hover [class*="linkButtonIcon"]
 ) {
     color: var(--kk-purple) !important;
+}
+
+/* Keep selected channel labels/icons bright instead of falling back to muted sidebar text */
+:is(
+    #channels [aria-selected="true"] [class*="name"],
+    #channels [aria-selected="true"] [class*="channelName"],
+    #channels [aria-selected="true"] [class*="icon"],
+    [class*="privateChannels"] [aria-selected="true"] [class*="name"],
+    [class*="privateChannels"] [aria-selected="true"] [class*="channelName"],
+    [class*="privateChannels"] [aria-selected="true"] [class*="linkButtonIcon"],
+    [class*="modeSelected"] [class*="name"],
+    [class*="modeSelected"] [class*="channelName"],
+    [class*="modeSelected"] [class*="icon"]
+) {
+    color: var(--kk-cream) !important;
+    fill: var(--kk-cream) !important;
 }
 
 /* ── Guild icon selected state ────────────────────────────────────────── */

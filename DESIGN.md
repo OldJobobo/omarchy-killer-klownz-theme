@@ -1,4 +1,4 @@
-# DESIGN — Killer Klowns from Outer Space
+# DESIGN — Killer Klownz from Outer Space
 
 > *"Cotton Candy Cosmos"*
 
