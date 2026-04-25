@@ -44,7 +44,7 @@
   --accent: #4b6cff;
   --radius: 12px;
   --pill-radius: 999px;
-  --noti-shadow: 0 8px 32px rgba(255, 79, 216, 0.18), 0 2px 8px rgba(0, 0, 0, 0.32);
+  --noti-shadow: 0 8px 23px rgba(255, 79, 216, 0.18), 0 2px 8px rgba(0, 0, 0, 0.32);
   --hover-transition: background 0.16s ease-in-out, border-color 0.16s ease-in-out;
 }
 
@@ -61,7 +61,7 @@ blankwindow {
 
 .floating-notifications .notification-row .notification-background .notification {
   background: var(--noti-bg);
-  border: 2px solid var(--noti-border);
+  border: 5px solid var(--noti-border);
   border-radius: var(--radius);
   box-shadow: var(--noti-shadow);
 }
@@ -74,7 +74,7 @@ blankwindow {
 }
 
 .notification-row .notification-background {
-  padding: 8px 12px;
+  padding: 12px 12px;
 }
 
 .notification-row .notification-background .notification,

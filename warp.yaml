@@ -14,7 +14,7 @@
 
 name: Aether
 accent: "#4b6cff"
-cursor: "#4b6cff"
+cursor: "#3cfaff"
 background: "#0b0a10"
 foreground: "#3cfaff"
 details: darker
@@ -28,7 +28,7 @@ terminal_colors:
     blue:    "#4b6cff"
     magenta: "#b96bff"
     cyan:    "#ff4fd8"
-    white:   "#e6e3ff"
+    white:   "#3cfaff"
   bright:
     black:   "#7a74a0"
     red:     "#ff3c8e"
@@ -37,7 +37,7 @@ terminal_colors:
     blue:    "#4b6cff"
     magenta: "#b96bff"
     cyan:    "#ff4fd8"
-    white:   "#3cfaff"
+    white:   "#e6e3ff"
 
 #  ,-----. ,--.   ,--.     ,--.       ,--.          ,--.
 # '  .-.  '|  | ,-|  |     |  | ,---. |  |-.  ,---. |  |-.  ,---.

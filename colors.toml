@@ -25,8 +25,8 @@ foreground = "#3cfaff"
 background = "#0b0a10"
 
 # Selection colors
-selection_foreground = "#0b0a10"
-selection_background = "#4b6cff"
+selection_foreground = "#1a0020"
+selection_background = "#ff4fd8"
 
 # Normal colors (ANSI 0-7)
 color0 = "#0b0a10"
@@ -36,7 +36,7 @@ color3 = "#ffe347"
 color4 = "#4b6cff"
 color5 = "#b96bff"
 color6 = "#ff4fd8"
-color7 = "#e6e3ff"
+color7 = "#3cfaff"
 
 # Bright colors (ANSI 8-15)
 color8 = "#7a74a0"
@@ -46,7 +46,7 @@ color11 = "#ffe347"
 color12 = "#4b6cff"
 color13 = "#b96bff"
 color14 = "#ff4fd8"
-color15 = "#3cfaff"
+color15 = "#e6e3ff"
 
 #  ,-----. ,--.   ,--.     ,--.       ,--.          ,--.
 # '  .-.  '|  | ,-|  |     |  | ,---. |  |-.  ,---. |  |-.  ,---.

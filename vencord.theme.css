@@ -447,7 +447,11 @@ body {
     [class*="guilds"] [class*="tutorialContainer"]::before,
     [class*="guilds"] [class*="tutorialContainer"]::after
 ) {
-    background: var(--kk-green-surface) !important;
+    content: none !important;
+    display: none !important;
+    background: transparent !important;
+    border: none !important;
+    outline: none !important;
     box-shadow: none !important;
 }
 
@@ -748,10 +752,12 @@ a[data-list-item-id^="channels___"][class*="modeUnread"] svg,
 }
 
 [class*="unreadMentionsIndicator"] {
-    background: var(--kk-green-surface) !important;
-    border: 1px solid var(--kk-green-border) !important;
+    display: none !important;
+    background: transparent !important;
+    border: none !important;
+    outline: none !important;
     box-shadow: none !important;
-    color: var(--kk-cream) !important;
+    color: transparent !important;
 }
 
 [class*="newMessagesBar"] {
