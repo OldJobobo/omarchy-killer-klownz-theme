@@ -13,7 +13,7 @@
 # ╚═╝  ╚═╝╚══════╝ ╚═════╝  ╚══╝╚══╝ ╚═╝  ╚═══╝╚══════╝
 
 [window]
-opacity = 0.9333333
+opacity = 0.8333333
 
 [colors]
 [colors.primary]
@@ -28,7 +28,7 @@ yellow  = "#ffe347"
 blue    = "#4b6cff"
 magenta = "#b96bff"
 cyan    = "#ff4fd8"
-white   = "#e6e3ff"
+white   = "#3cfaff"
 
 [colors.bright]
 black   = "#7a74a0"
@@ -38,7 +38,7 @@ yellow  = "#ffe347"
 blue    = "#4b6cff"
 magenta = "#b96bff"
 cyan    = "#ff4fd8"
-white   = "#3cfaff"
+white   = "#e6e3ff"
 
 [colors.cursor]
 text   = "#0b0a10"

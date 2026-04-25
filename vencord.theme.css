@@ -405,6 +405,52 @@ body {
     border-right: 1px solid var(--kk-green-border) !important;
 }
 
+/* Keep the guild rail internals on the same surface so scroll bars/caps do not show pink */
+:is(
+    .guilds_c48ade [class*="scroller"],
+    .guilds_c48ade [class*="scrollerBase"],
+    .guilds_c48ade [class*="stack"],
+    .guilds_c48ade [class*="itemsContainer"],
+    .guilds_c48ade [class*="tutorialContainer"],
+    .guilds_c48ade [class*="listItem"],
+    .guilds_c48ade [class*="tree"],
+    .guilds_c48ade nav,
+    .guilds_c48ade [class*="unreadMentionsIndicator"],
+    .wrapper_ef3116 [class*="scroller"],
+    .wrapper_ef3116 [class*="scrollerBase"],
+    .wrapper_ef3116 [class*="stack"],
+    .wrapper_ef3116 [class*="itemsContainer"],
+    .wrapper_ef3116 [class*="tutorialContainer"],
+    .wrapper_ef3116 [class*="listItem"],
+    .wrapper_ef3116 [class*="tree"],
+    .wrapper_ef3116 nav,
+    .wrapper_ef3116 [class*="unreadMentionsIndicator"],
+    [class*="guilds"] [class*="scroller"],
+    [class*="guilds"] [class*="scrollerBase"],
+    [class*="guilds"] [class*="stack"],
+    [class*="guilds"] [class*="itemsContainer"],
+    [class*="guilds"] [class*="tutorialContainer"],
+    [class*="guilds"] [class*="listItem"],
+    [class*="guilds"] [class*="tree"],
+    [class*="guilds"] nav,
+    [class*="guilds"] [class*="unreadMentionsIndicator"]
+) {
+    background: var(--kk-green-surface) !important;
+    box-shadow: none !important;
+}
+
+:is(
+    .guilds_c48ade [class*="tutorialContainer"]::before,
+    .guilds_c48ade [class*="tutorialContainer"]::after,
+    .wrapper_ef3116 [class*="tutorialContainer"]::before,
+    .wrapper_ef3116 [class*="tutorialContainer"]::after,
+    [class*="guilds"] [class*="tutorialContainer"]::before,
+    [class*="guilds"] [class*="tutorialContainer"]::after
+) {
+    background: var(--kk-green-surface) !important;
+    box-shadow: none !important;
+}
+
 /* ── Alien green: user panel ─────────────────────────────────────────── */
 [class*="panels__"] {
     background: var(--kk-green-surface) !important;
@@ -639,10 +685,18 @@ a[data-list-item-id^="channels___"][class*="modeUnread"] svg,
 }
 
 :is(
-    [class*="pill"] [class*="item"],
     [class*="mention"] [class*="item"]
 ) {
     background: linear-gradient(180deg, var(--kk-slime), var(--kk-cyan)) !important;
+}
+
+:is(
+    [class*="guilds"] [class*="pill"] [class*="item"],
+    .guilds_c48ade [class*="pill"] [class*="item"],
+    .wrapper_ef3116 [class*="pill"] [class*="item"]
+) {
+    background: transparent !important;
+    box-shadow: none !important;
 }
 
 /* ── Message interactions ─────────────────────────────────────────────── */
@@ -688,9 +742,15 @@ a[data-list-item-id^="channels___"][class*="modeUnread"] svg,
 }
 
 /* ── Ping badge — clown lipstick ──────────────────────────────────────── */
-[class*="numberBadge"],
-[class*="unreadMentionsIndicator"] {
+[class*="numberBadge"] {
     background-color: var(--kk-hot-pink) !important;
+    color: var(--kk-cream) !important;
+}
+
+[class*="unreadMentionsIndicator"] {
+    background: var(--kk-green-surface) !important;
+    border: 1px solid var(--kk-green-border) !important;
+    box-shadow: none !important;
     color: var(--kk-cream) !important;
 }
 
