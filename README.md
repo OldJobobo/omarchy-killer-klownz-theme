@@ -54,7 +54,6 @@ omarchy-theme-install https://github.com/OldJobobo/omarchy-killer-klownz-theme
 ## Notes
 
 - This theme is intentionally not color-uniform. Walker stays pink, notifications stay cream, SwayOSD stays green, and the terminal stays in the void.
-- `colors.toml` is the canonical palette source, with terminal selection colors aligned to the Foot configuration.
 
 ## Attribution
 
